@@ -1,0 +1,101 @@
+body{
+  background-image:url("images/img.jpg");
+}
+.page-header{
+border-bottom: none;
+}
+.mentor{
+  margin-top: 10px;
+  background: #a5191a;
+  color: white;
+}
+#mentor{
+  padding-left: 5px;
+}
+.z{
+  margin-top: 35px;
+  font-size: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 280px;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+.user{
+  padding: 50px;
+}
+.user1 a{
+  color: white;
+}
+.z1{
+	padding:30px;
+  border: 3px soild black;
+  min-height: 600px;
+  max-height: 600px;
+}
+.z1:hover > .thumbnail  {
+	box-shadow: 0px 0px 10px grey !important;
+    font-size:20px;
+	transition: .5s all;
+
+}
+.z1:hover > .thumbnail > .caption  {
+	background: #a5191a !important;;
+	color:white!important;
+	transition: .5s all;
+	border-bottom:2px solid #a5191a;
+}
+
+.z1{
+	transition: .5s all;
+}
+.z1:hover
+{
+	padding:10px;
+	transition: .5s all;
+
+}
+
+.card  img{
+  border: 2px soild white;
+}
+.title {
+  color: grey;
+
+  font-size: 18px;
+}
+.card1{
+background-color: red;
+}
+.user1{
+  background-color: #a5191a;
+
+}
+button {
+  border: 3px soild orange;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color:  transparent;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+#viewbtn{
+  border: 2px soild green;
+  color: green;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}

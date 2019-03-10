@@ -1,0 +1,11 @@
+<?php
+session_start();
+if(isset($_SESSION["masteradminemail"]))
+{
+	$adminemail=$_SESSION["masteradminemail"];
+	$loggedin=true;
+}
+else
+{
+	$loggedin=false;
+}?>
